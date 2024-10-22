@@ -6,7 +6,7 @@ import ru.ifmo.se.pokemon.Type;
 
 public class Rest extends StatusMove {
     public Rest(){
-        super(Type.PSYCHIC, 0, 0);
+        super(Type.PSYCHIC, 0, 100);
     }
     @Override
     protected String describe(){
